@@ -77,7 +77,7 @@ body{
 
 .chat .chat-header {
   padding: 15px 20px;
-  border-bottom: 2px solid #e4942b /*borda superior chat*/
+  border-bottom: 2px solid #FE662E /*borda superior chat*/
 }
 
 .chat .chat-header img {
@@ -93,7 +93,7 @@ body{
 
 .chat .chat-history {
   padding: 20px;
-  border-bottom: 2px solid #e4942b /*borda inferior chat*/
+  border-bottom: 2px solid #FE662E /*borda inferior chat*/
 }
 
 .chat .chat-history ul {
@@ -148,7 +148,7 @@ body{
 }
 
 .chat .chat-history .my-message {
-  background: #ebb67a /*mengaem recebida*/
+  background: #fc9874 /*mensagem recebida*/
 }
 
 .chat .chat-history .my-message:after {
@@ -160,18 +160,18 @@ body{
   width: 0;
   position: absolute;
   pointer-events: none;
-  border-bottom-color: #ebb67a;
+  border-bottom-color: #fc9874;
   border-width: 10px;
   margin-left: -10px
 }
 
 .chat .chat-history .other-message {
-  background: #eeb346; /*mensagem enviada*/
+  background: #fc7341; /*mensagem enviada*/
   text-align: right
 }
 
 .chat .chat-history .other-message:after {
-  border-bottom-color: #eeb346;
+  border-bottom-color: #fc7341;
   left: 93%
 }
 

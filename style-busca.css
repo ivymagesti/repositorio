@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@400;500;600;800&display=swap');
+
+body
+{
+    background: #F7F7F7;
+}
+
+/* Header */
+
+header
+{
+    background: #FFFFFF;
+    height: 72px;
+}
+
+header ul
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 70px;
+}
+
+#logo
+{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    position: relative;
+    left: 70px;
+    bottom: 12px;
+    color: #262626;
+}
+
+.nav-link
+{
+    color: #262626 !important;
+    margin-top: 3px;
+    font-weight: 500;
+}
+
+#mini-profile
+{
+    position: relative;
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 100%;
+    bottom: 9px;
+    border: 1px solid #36357E;
+    padding: 3px;
+}
+
+/* Resto da pagina */
+
+#container
+{
+    font-family: 'Montserrat';
+    font-weight: normal;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 49px;
+    margin-bottom: 73px;
+}
+
+/* Barra de pesquisa e filtros */
+
+#search-bar
+{
+    width: 360px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #FE662E;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding-left: 48px;
+    padding-right: 15px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+#search-bar:focus
+{
+    outline: none;
+}
+
+#search-filter
+{
+    display: flex;
+}
+
+#search-filter select
+{
+    margin-left: 16px;
+    width: 149px;
+    height: 48px;
+    border: 1px solid #FE662E;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+/* Mentores */
+
+#mentores
+{
+    margin-top: 32px;
+}
+
+#mentor
+{
+    display: flex;
+    width: 1120px;
+    height: 252px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    color: #262626;
+    align-items: center;
+    gap: 30px;
+    margin-top: 24px;
+}
+
+#profile
+{
+    width: 188px;
+    height: 188px;
+    border-radius: 100%;
+    border: 4px solid #FE662E;
+    box-sizing: border-box;
+    margin-left: 32px;
+    padding: 14px;
+}
+
+#tags-mentor
+{
+    display: flex;
+    gap: 8px;
+}
+
+#tags-mentor p
+{
+    background: #36357E;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 30px;
+    font-family: 'Montserrat';
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding-block: 8px;
+    padding-inline: 16px;
+}
+
+.btn-perfil
+{
+    width: 246px;
+    height: 48px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 100px;
+    box-sizing: border-box;
+    border: 1px solid #36357E;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #36357E;
+    margin-top: 8px;
+}
+
+.btn-agendar
+{
+    width: 246px;
+    height: 48px;
+    background: #FE662E;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 8px;
+}
+
+/*body {
+    font-family: 'Rubik', sans-serif;
+    height: 100% !important;
+    background-color: #3F51B5 !important
+}*/
+
+#star {
+    margin-left: -5px !important;
+    vertical-align: bottom !important;
+    opacity: 0.5
+}
+
+.more {
+    opacity: 0.5 !important
+}
+
+.btn:hover {
+    color: black !important
+}
+
+.vl {
+    margin: 8px !important;
+    width: 2px;
+    border-right: 1px solid #aaaaaa;
+    height: 25px
+}
+
+#plus {
+    opacity: 0.8
+}
+
+.card {
+    border-radius: 10px !important
+}
+
+a:hover {
+    background-color: #ccc !important
+}
+
+.btn-outlined:active {
+    color: #FFF;
+    border-color: #fff !important
+}
+
+img {
+    cursor: pointer;
+    overflow: visible
+}
+
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none !important
+}
+
+.container {
+    margin-top: 15px !important
+}
+
+
+
+.dot { /*bolinha*/
+    height: 6px;
+    width: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 2px;
+    background-color: rgb(91, 92, 91);
+    border-radius: 50%;
+    display: inline-block
+}
+
+.name {
+    font-size: 14px
+}
+
+.date {
+    font-size: 12px
+}
+
+.rating i {
+    color: green;
+    font-size: 13px
+}
+
+.comment-text {
+    font-size: 12px
+}
